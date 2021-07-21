@@ -1,0 +1,35 @@
+        h1 {
+            color: aqua
+        }
+        
+        .header {
+            background-color: rgb(43, 183, 226);
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        
+        .footer {
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        p,
+        h2 {
+            text-align: center;
+        }
+        
+        .site-discription {
+            display: flex;
+            justify-content: first baseline;
+            flex-direction: column;
+        }
+        
+        body {
+            background-color: rgb(128, 128, 128);
+        }
